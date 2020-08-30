@@ -67,17 +67,7 @@ for c in range(0,3):
                           detet()
                     if numero == 2:
                           ladrao()
-                    break
-                    
-'''for c in range(0, vítima):
-    listainicial.append('vítima')
-
-for c in range(0, ladrão):
-    listainicial.append('ladrão')
-    
-for c in range(0, detetive):
-    listainicial.append('detetive')'''
-    
+                    break    
 d.clear()
 total = ladrão + detetive + vítima
 p = 0
@@ -101,9 +91,7 @@ for c in range(0, total):
                 d.append(numero)
                 listafinal.append(listainicial[numero])
                 break
-
 m = 0
-#print(listafinal)
 for c in listafinal:
     m += 1
     input('             Pressione Enter')
@@ -127,5 +115,3 @@ for c in listafinal:
     system('clear')
     for r in range(0,100):
         print()
-   
-    

@@ -20,21 +20,26 @@ def lerint(txt):
 
 def vitima():
     for c in range(0, vítima):
-        listainicial.append('vítima')
+        listainicial.append('Vítima')
 
 def ladrao():
     for c in range(0, ladrão):
-        listainicial.append('ladrão')
+        listainicial.append('Ladrão')
 
 def detet():   
     for c in range(0, detetive):
-        listainicial.append('detetive')
+        listainicial.append('Detetive')
 
-vítima = lerint('Digite a quantidade de vítimas')
-
-ladrão = lerint('Digite a quantidade de ladrões')
-
-detetive = lerint('Digite a quantidade de detetives')
+system('cls')
+print('-'*50)
+vítima = lerint('Digite a quantidade de vítimas: ')
+system('cls')
+print('-'*50)
+ladrão = lerint('Digite a quantidade de ladrões: ')
+system('cls')
+print('-'*50)
+detetive = lerint('Digite a quantidade de detetives: ')
+print('-'*50)
 
 s = 0
 
@@ -95,7 +100,7 @@ m = 0
 for c in listafinal:
     m += 1
     input('             Pressione Enter')
-    system('clear')
+    system('cls')
     for d in range(0,6):
         print('\033[m')
     print('\033[1;36m')
@@ -109,9 +114,10 @@ for c in listafinal:
     print()
     if m == len(listafinal):
         input('            Você foi o Ultimo')
-        exit()
+        break
     else:
         input('             Pressione Enter')
-    system('clear')
+    system('cls')
     for r in range(0,100):
         print()
+system('cls')

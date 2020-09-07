@@ -14,7 +14,6 @@ def lerint(txt):
             
         if a in '1234567890':
             return int(a)
-            break 
         else:
             print('\033[1;31mdigite um numero\033[m')
 
@@ -29,6 +28,7 @@ def ladrao():
 def detet():   
     for c in range(0, detetive):
         listainicial.append('Detetive')
+
 
 system('cls')
 print('-'*50)
